@@ -12,14 +12,17 @@
 <body>
     <div class="contain">
 
-        <div class="navBar">
-            <div class="head">Random Quotes</div>
-            <input type="range" min="0" max="360" id="mode">
-        </div>
+        <a id="download" href="" download>Download Image</a>
         <div class="quotesBox">
-            <q class="quotes">Hello Press Generate Button To Start!!!</q>
             <div class="spokes"></div>
+            <img id="imageShow" alt="image">
+            <q class="quotes">Hello Press Generate Button To Start!!!
+           
+
+            </q>
+           
         </div>
+        
         <button id="generate">Generate</button>
         <div class="form">
             <button id="close">X</button>
@@ -28,6 +31,8 @@
                 <input type="text" name="rating" placeholder="Your Name" required>
                 <input type="text" name="message" placeholder="Message " required>
                 <input type="submit" value="submit">
+                </form>
+            
         </div>
 
         <script src="script.js"></script>
