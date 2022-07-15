@@ -96,11 +96,13 @@
     height: 70vmin;
     position: absolute;
     text-align: center;
-    
+    overflow: scroll;
     background:rgba(0, 0, 0, 0.802);
     color:rgb(255, 255, 255);
     padding:2vmin;
-  
+    border-left:1vmin solid royalblue;
+    border-right:1vmin solid royalblue ;
+    border:.5vmin dashed royalblue;
     border-radius:6vmin;
     display: grid;
     place-items:center;;
